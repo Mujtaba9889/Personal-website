@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(241, 243, 245);
+  font-family: "Poppins", sans-serif;
+  background: black;
+}
+
+#section-introduction {
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+#section-second {
+  color: white;
+}
+.hero-content {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row wrap;
+  flex-flow: row;
+}
+
+.intro-text {
+  width: 50%;
+  margin-left: 180px;
+  margin-top: 200px;
+  color: white;
+  font-weight: 400px;
+}
+
+.image-div {
+  margin-top: 200px;
+  margin-right: 100px;
+}
+#intro-img {
+  width: 520px;
+}
+
+.head-1 {
+  font-size: 20px;
+}
+.head-2 {
+  font-size: 50px;
+  width: 600px;
+  color: rgb(168, 168, 246);
+}
+
+.head-3 {
+  font-size: 20px;
+}
+.butt-first {
+  background-color: white;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  border-radius: 20px;
+  cursor: crosshair; /* Change cursor style on hover */
+}
+.sect-second {
+  display: flex;
+  width: 100%;
+  flex-direction: row wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.button {
+  width: 80px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: white;
+
+  cursor: pointer;
+  cursor: crosshair;
+}
+.what-develope {
+  width: 300px;
+  height: 300px;
+}
+
+.perso-img {
+  height: 300px;
+  width: 300px;
+}
+.biss-img {
+  height: 300px;
+  width: 300px;
+}
+.educa-img {
+  height: 300px;
+  width: 300px;
+}
+#sec-thrd {
+  color: white;
+}
+.main-sec {
+  display: flex;
+}
+.experience {
+  width: 50%;
+  margin: 100px;
+}
+.exper-h2 {
+  font-size: 35px;
+  font-style: oblique;
+  color: rgb(240, 240, 70);
+}
+.exper-para {
+  font-style: italic;
+}
+.what-do {
+  color: rgb(182, 182, 251);
+}
+.perso-text {
+  color: rgb(24, 191, 183);
+}
+.biss-text {
+  color: rgb(241, 109, 109);
+}
+.educa-text {
+  color: rgb(156, 110, 175);
+}
+#sec-fourth {
+  color: white;
+}
+.peop-feed {
+  text-align: center;
+  color: rgb(240, 87, 87);
+  font-size: 30px;
+  font-style: calc();
+}
+.feedbag-parag {
+  justify-content: center;
+  font-style: inherit;
+  text-align: center;
+  width: 700px;
+  margin-left: 330px;
+}
+#sec-fifth{
+  color: white;
+  font-weight: 100;
+}
+.locat-icon{
+  font-size: 50px;
+}
