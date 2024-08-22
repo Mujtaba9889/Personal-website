@@ -5,8 +5,51 @@ body {
   background: rgb(241, 243, 245);
   font-family: "Poppins", sans-serif;
   background: black;
+  width: 100%;
 }
 
+.nav-bar {
+  background-color: rgb(1, 58, 80);
+  border-radius: 50px;
+  color: white;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.nav-bar input {
+  border-radius: 15px;
+  height: 30px;
+  border: 3px solid rgb(3, 246, 233);
+  padding: 5px;
+  width: 200px;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding-top: 40px;
+}
+.nav-bar li {
+  padding: 10px 20px;
+  margin-left: 40px;
+}
+.nav-bar li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-right: 110px;
+}
+#search {
+  width: 80;
+  height: 15px;
+}
 #section-introduction {
   width: 100%;
   height: 100vh;
@@ -34,7 +77,7 @@ body {
 }
 
 .image-div {
-  margin-top: 200px;
+  margin-top: 23em;
   margin-right: 100px;
 }
 #intro-img {
@@ -57,9 +100,12 @@ body {
   background-color: white;
   height: 30px;
   width: 60px;
-  cursor: pointer;
   border-radius: 20px;
-  cursor: crosshair; /* Change cursor style on hover */
+}
+.butt-first:hover {
+  color:white;
+  background-color: rgb(100, 100, 238);
+  cursor: pointer;
 }
 .sect-second {
   display: flex;
@@ -73,9 +119,11 @@ body {
   height: 25px;
   border-radius: 15px;
   background-color: white;
-
+}
+.button:hover {
+  color:white;
+  background-color: rgb(133, 133, 244);
   cursor: pointer;
-  cursor: crosshair;
 }
 .what-develope {
   width: 300px;
@@ -85,17 +133,21 @@ body {
 .perso-img {
   height: 300px;
   width: 300px;
+  border-radius: 100px;
 }
 .biss-img {
   height: 300px;
   width: 300px;
+  border-radius: 100px;
 }
 .educa-img {
   height: 300px;
   width: 300px;
+  border-radius: 100px;
 }
 #sec-thrd {
   color: white;
+  flex-wrap: wrap;
 }
 .main-sec {
   display: flex;
@@ -126,24 +178,57 @@ body {
 }
 #sec-fourth {
   color: white;
+  flex-wrap: wrap;
 }
 .peop-feed {
-  text-align: center;
-  color: rgb(240, 87, 87);
+  color: rgb(87, 240, 227);
   font-size: 30px;
   font-style: calc();
 }
 .feedbag-parag {
-  justify-content: center;
   font-style: inherit;
-  text-align: center;
-  width: 700px;
-  margin-left: 330px;
+  width: 500px;
 }
-#sec-fifth{
+#sec-fifth {
   color: white;
   font-weight: 100;
+  flex-wrap: wrap;
 }
-.locat-icon{
+.locat-icon {
   font-size: 50px;
+}
+.butt-more {
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  height: 30px;
+  border-color: darkblue;
+}
+.butt-more:hover {
+  color:white;
+  background-color: rgb(55, 158, 248);
+  cursor: pointer;
+}
+.contact-me {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(230, 246, 123);
+}
+.div-main-last {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 15px;
+}
+.info i {
+  font-size: 35px;
+  color: rgb(244, 123, 86);
+}
+.last-info {
+  font-size: 25px;
+}
+.div-main-last i:hover {
+  color: orange;
+  cursor: pointer;
 }
