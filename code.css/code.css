@@ -2,10 +2,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgb(241, 243, 245);
   font-family: "Poppins", sans-serif;
   background: black;
   width: 100%;
+  color: white;
 }
 
 .nav-bar {
@@ -16,20 +16,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 20px;
 }
 .nav-bar input {
   border-radius: 15px;
   height: 30px;
   border: 3px solid rgb(3, 246, 233);
   padding: 5px;
-  width: 200px;
+  width: 100px;
 }
 .nav-bar ul {
   display: flex;
   list-style: none;
-  margin: 0px;
-  padding-top: 40px;
 }
 .nav-bar li {
   padding: 10px 20px;
@@ -59,9 +56,10 @@ body {
   color: white;
 }
 .hero-content {
-  width: 100%;
+  width: 70%;
   height: 330px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   flex-direction: row wrap;
@@ -70,7 +68,7 @@ body {
 
 .intro-text {
   width: 50%;
-  margin-left: 180px;
+  margin-left: 140px;
   margin-top: 200px;
   color: white;
   font-weight: 400px;
@@ -78,10 +76,10 @@ body {
 
 .image-div {
   margin-top: 23em;
-  margin-right: 100px;
 }
 #intro-img {
-  width: 520px;
+  margin-bottom: 150px;
+  margin-left: 10em;
 }
 
 .head-1 {
@@ -103,7 +101,7 @@ body {
   border-radius: 20px;
 }
 .butt-first:hover {
-  color:white;
+  color: white;
   background-color: rgb(100, 100, 238);
   cursor: pointer;
 }
@@ -112,7 +110,7 @@ body {
   width: 100%;
   flex-direction: row wrap;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .button {
   width: 80px;
@@ -121,7 +119,7 @@ body {
   background-color: white;
 }
 .button:hover {
-  color:white;
+  color: white;
   background-color: rgb(133, 133, 244);
   cursor: pointer;
 }
@@ -151,10 +149,12 @@ body {
 }
 .main-sec {
   display: flex;
+  margin-left: 100px;
 }
+
 .experience {
-  width: 50%;
-  margin: 100px;
+  width: 600px;
+  margin-top: 130px;
 }
 .exper-h2 {
   font-size: 35px;
@@ -166,6 +166,7 @@ body {
 }
 .what-do {
   color: rgb(182, 182, 251);
+  margin-top: 150px;
 }
 .perso-text {
   color: rgb(24, 191, 183);
@@ -180,14 +181,35 @@ body {
   color: white;
   flex-wrap: wrap;
 }
+.peoples-1 {
+  width: 100px;
+  border-radius: 50%;
+}
+.peoples-2 {
+  width: 60px;
+  border-radius: 50%;
+}
+.peoples-3 {
+  width: 30px;
+  border-radius: 50%;
+}
+.peoples-what {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .peop-feed {
-  color: rgb(87, 240, 227);
+  text-align: center;
+  color: rgb(237, 231, 48);
   font-size: 30px;
   font-style: calc();
 }
 .feedbag-parag {
   font-style: inherit;
-  width: 500px;
+  text-align: center;
 }
 #sec-fifth {
   color: white;
@@ -200,35 +222,177 @@ body {
 .butt-more {
   padding: 8px 20px;
   border-radius: 20px;
-  margin-bottom: 30px;
   height: 30px;
   border-color: darkblue;
 }
 .butt-more:hover {
-  color:white;
+  color: white;
   background-color: rgb(55, 158, 248);
   cursor: pointer;
 }
 .contact-me {
   text-align: center;
   font-size: 30px;
-  color: rgb(230, 246, 123);
+  color: #fb5d5d;
+  font-size: 30px;
 }
 .div-main-last {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
   font-size: 15px;
 }
 .info i {
   font-size: 35px;
   color: rgb(244, 123, 86);
+  margin-left: 25px;
 }
 .last-info {
   font-size: 25px;
+  margin: 30px;
 }
 .div-main-last i:hover {
   color: orange;
   cursor: pointer;
+}
+.latest-project {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(26, 194, 200);
+  font-weight: 300;
+}
+.latest-proj-img {
+  height: 100vh;
+  width: 100%;
+  font-weight: bolder;
+}
+.company-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(238, 26, 19);
+}
+.offer-skill {
+  background-image: url(../assets/teaching-code.jpg);
+  width: 450px;
+  height: 500px;
+  border-radius: 50px;
+}
+.offer-job {
+  background-image: url(../assets/jobs.webp);
+  width: 450px;
+  height: 500px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+.offer-text {
+  font-size: 30px;
+  padding-top: 425px;
+  padding-left: 30px;
+  width: 500px;
+}
+.job-text {
+  font-size: 30px;
+  padding-top: 425px;
+  padding-left: 20px;
+  width: 500px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  flex-wrap: wrap;
+}
+.profile-box {
+  background-color: #ff574a;
+  text-align: center;
+  padding: 40px 90px;
+  color: #fff;
+  position: relative;
+  border-radius: 20px;
+}
+.menu-icon {
+  width: 25px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+.setting-icon {
+  width: 25px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.profile-icon {
+  width: 150px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #fff;
+  margin-top: 40px;
+}
+.profile-bottom {
+  background: #fff;
+  color: #999;
+  padding-bottom: 20px;
+  margin-right: -90px;
+  margin-left: -90px;
+  margin-bottom: -40px;
+  border-radius: 20px;
+}
+.profile-bottom img {
+  width: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.profile-box button {
+  background: #fff;
+  color: #ff574a;
+  border: none;
+  outline: none;
+  box-shadow: 0px 5px 10px rgba(244, 67, 54, 0.5);
+  padding: 15px 60px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: -50px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.name-h3 {
+  font-size: 20px;
+  margin-top: 30px 5px;
+  font-weight: 500;
+}
+.social-media img {
+  width: 20px;
+  margin: 30px 5px;
+  cursor: pointer;
+}
+.nav-bar-bottom {
+  background-color: rgb(1, 58, 80);
+  border-radius: 50px;
+  color: white;
+  height: 50px;
+}
+.nav-bar-bottom ul,
+li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  :hover{
+    color: rgb(4, 222, 255);
+  }
+}
+#icon-bottom{
+  font-size: 30px;
+  padding-left: 10px;
 }
